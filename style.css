@@ -1,0 +1,156 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background: #1f2937;
+}
+
+header ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+header ul li a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  direction: rtl;
+}
+
+.hero div {
+  width: 50%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  direction: ltr;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  margin-bottom: 15px;
+}
+
+.hero a {
+  background: #3382f6;
+  padding: 7px 13px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.hero img {
+  width: 50%;
+}
+
+.categories {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.categories h2 {
+  color: #1f2937;
+  font-size: 1.8rem;
+}
+
+.categories-content {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.category {
+  width: calc(24% - 6px);
+  border: #c9dbf8 3px solid;
+  background: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.category:hover {
+  background: #e5e7eb;
+}
+
+.category img {
+  width: 100%;
+  margin-top: -30px;
+}
+
+.category h3 {
+  margin-top: -60px;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+/* iPads size (It's good for mobile size also) */
+@media (max-width: 850px) {
+  header ul {
+    width: 55%;
+  }
+
+  header img {
+    width: 130px;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+  }
+
+  .hero img {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .hero div {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .categories-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+
+  .category {
+    width: 80%;
+    align-items: center;
+  }
+
+  .category img {
+    width: 70%;
+  }
+}
