@@ -366,3 +366,47 @@ footer div ul img {
   width: 80%;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
+
+  .contact-hero p {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    margin: 2rem auto;
+  }
+
+  .info-data {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-hero p {
+    font-size: 0.9rem;
+  }
+
+  .contact-form h2,
+  .info-contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-family input,
+  .form-family textarea,
+  .contact-form button {
+    font-size: 0.9rem;
+  }
+}
