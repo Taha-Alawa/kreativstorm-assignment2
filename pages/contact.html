@@ -24,25 +24,27 @@
   <section class="hero contact-hero">
     <div>
       <h1>Get in Touch</h1>
-      <p>Have questions or need asistance? We're here for help!</p>
+      <p>Have questions or need asistance? We're here for help! Reach out to us and experience our exceptional customer
+        service.
+      </p>
     </div>
   </section>
 
   <section class="contact-form">
     <h2>Contact Us</h2>
-    <form class="form-family">
-      <div>
-        <label>Name:</label>
-        <input>
+    <form>
+      <div class="form-family">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
       </div>
-      <div>
-        <label>Email:</label>
-        <input>
+      <div class="form-family">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
       </div>
-      <div>
-        <label>Message:</label>
-        <textarea></textarea>
-        <button>Send Message</button>
+      <div class="form-family">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
       </div>
     </form>
   </section>
@@ -50,16 +52,16 @@
   <section class="info-contact">
     <h2>Our information</h2>
     <div class="info-data">
-      <div>
-        <img>
+      <div class="info-item">
+        <img src="../images/icons/point.svg">
         <p>321 Tech Street, Digital City, 54321</p>
       </div>
-      <div>
-        <img>
+      <div class="info-item">
+        <img src="../images/icons/phone.svg">
         <p>+1 (234) 567890123</p>
       </div>
-      <div>
-        <img>
+      <div class="info-item">
+        <img src="../images/icons/email.svg">
         <p>contact@techhaven.com</p>
       </div>
     </div>
