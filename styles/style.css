@@ -347,3 +347,22 @@ footer div ul img {
 .contact-form button:hover {
   background: #286dd3;
 }
+
+.info-contact {
+  text-align: center;
+  background: #f9faf8;
+  padding: 50px 0;
+}
+
+.info-contact h2 {
+  color: #1f2937;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.info-data {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
