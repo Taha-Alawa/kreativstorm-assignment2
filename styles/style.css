@@ -298,6 +298,8 @@ footer div ul img {
   width: 80%;
 }
 
+/* Contact form - Section 2 */
+
 .contact-form {
   text-align: center;
   margin: 50px auto;
@@ -347,6 +349,8 @@ footer div ul img {
 .contact-form button:hover {
   background: #286dd3;
 }
+
+/* Contact form - Section 3 */
 
 .info-contact {
   text-align: center;
