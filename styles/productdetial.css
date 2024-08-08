@@ -13,6 +13,10 @@
   text-decoration: none;
 }
 
+body {
+  background: #ebf4ff;
+}
+
 /* Styles for product Detial page */
 .go-back {
   display: inline-block;
@@ -20,7 +24,7 @@
   padding: 8px 15px;
   border-radius: 8px;
   color: #f9faf8;
-  background: #3382f6;
+  background: #4682a9;
 }
 
 .product-detial-container {
@@ -29,7 +33,7 @@
   align-items: center;
   width: calc(90% - 40px);
   background: #f9faf8;
-  border: 3px solid #c9dbf8;
+  border-bottom: #c9dbf8 2px solid;
   border-radius: 12px;
   margin: 50px auto 80px auto;
   padding: 20px;
@@ -53,7 +57,7 @@
 }
 
 .buy {
-  background: #3382f6;
+  background: #4682a9;
   text-align: center;
   color: #f9faf8;
   font-weight: 700;
@@ -64,7 +68,7 @@
 }
 
 .buy:hover {
-  background: #286dd3;
+  background: #559ac9;
 }
 
 /* Related products */
@@ -83,10 +87,19 @@ h2 {
   width: calc(30% - 40px);
   background: #f9faf8;
   padding: 20px;
-  border: 2px solid #c9dbf8;
+  border-bottom: 2px solid #c9dbf8;
   border-radius: 10px;
   text-align: center;
   font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.related-products div:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .related-products img {

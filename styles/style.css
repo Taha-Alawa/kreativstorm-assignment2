@@ -217,6 +217,138 @@ footer div ul img {
   width: 35px;
 }
 
+/* Contact page styles */
+
+.contact-hero {
+  flex-direction: column;
+  padding: 5% 0;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-hero div {
+  width: 80%;
+}
+
+/* Contact form - Section 2 */
+
+.contact-form {
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+}
+
+.contact-form h2 {
+  color: #1f2937;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.form-family {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-family label {
+  display: block;
+  margin-bottom: 5px;
+  color: #1f2937;
+}
+
+.form-family input,
+.form-family textarea {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c9dbf8;
+  width: calc(100% - 20px);
+}
+
+.form-family textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background: #3382f6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #286dd3;
+}
+
+/* Contact form - Section 3 */
+
+.info-contact {
+  text-align: center;
+  background: #f9faf8;
+  padding: 50px 0;
+}
+
+.info-contact h2 {
+  color: #1f2937;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.info-data {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item img {
+  margin-bottom: 10px;
+  width: 45px;
+}
+
+.info-item p {
+  color: #1f2937;
+  font-size: 18px;
+}
+
+/* about page */
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 40px auto;
+  align-items: start;
+  height: 100%;
+}
+
+.about h1 {
+  font-size: 2rem;
+  color: #1F2937;
+}
+
+.about p {
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.about a {
+  background: #3382f6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* iPads size (It's good for mobile size also) */
 @media (max-width: 850px) {
   header {
@@ -283,106 +415,26 @@ footer div ul img {
   footer div ul {
     margin: 30px 0 0 0;
   }
-}
 
-/* Contact page styles */
 
-.contact-hero {
-  flex-direction: column;
-  padding: 5% 0;
-  align-items: center;
-  text-align: center;
-}
+  .about a {
+    width: calc(100% - 40px);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+  }
 
-.contact-hero div {
-  width: 80%;
-}
+  .contact-form {
+    width: 90%;
+  }
 
-/* Contact form - Section 2 */
+  .contact-form button {
+    width: 100%;
+    margin-top: 10px;
+  }
 
-.contact-form {
-  text-align: center;
-  margin: 50px auto;
-  width: 40%;
-}
-
-.contact-form h2 {
-  color: #1f2937;
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-}
-
-.form-family {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.form-family label {
-  display: block;
-  margin-bottom: 5px;
-  color: #1f2937;
-}
-
-.form-family input,
-.form-family textarea {
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #c9dbf8;
-  width: 100%;
-}
-
-.form-family textarea {
-  height: 150px;
-}
-
-.contact-form button {
-  background: #3382f6;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background: #286dd3;
-}
-
-/* Contact form - Section 3 */
-
-.info-contact {
-  text-align: center;
-  background: #f9faf8;
-  padding: 50px 0;
-}
-
-.info-contact h2 {
-  color: #1f2937;
-  margin-bottom: 30px;
-  font-size: 1.8rem;
-}
-
-.info-data {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.info-item img {
-  margin-bottom: 10px;
-  width: 45px;
-}
-
-.info-item p {
-  color: #1f2937;
-  font-size: 18px;
+  .info-data {
+    flex-direction: column;
+    gap: 40px;
+  }
 }

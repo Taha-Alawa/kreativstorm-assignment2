@@ -77,6 +77,7 @@ html {
   border-radius: 15px;
   border-bottom: #c9dbf8 1px solid;
   background: #ffffff;
+  transition: all 0.5s ease;
 }
 
 .card-image {
@@ -137,5 +138,4 @@ html {
   color: white;
   cursor: pointer;
   transform: scale(1.03);
-  transition: all 1s ease;
 }
