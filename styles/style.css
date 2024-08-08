@@ -230,12 +230,16 @@ footer div ul img {
   width: 80%;
 }
 
+.contact-hero p {
+  text-align: left;
+}
+
 /* Contact form - Section 2 */
 
 .contact-form {
   text-align: center;
   margin: 50px auto;
-  width: 70%;
+  width: 40%;
 }
 
 .contact-form h2 {
