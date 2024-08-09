@@ -14,7 +14,7 @@
 }
 
 html {
-  background-color: #ebf4ff;
+  background-color: #f5f7f8;
 }
 
 /********************************************* Hero section *************************/
@@ -53,27 +53,43 @@ html {
 
 /***************************************** Products categories ************************************/
 
-.title {
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  color: #1f2937;
-  background-color: #ebf4ff;
-}
-
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #ebf4ff;
+}
+
+#best {
+  background-color: #f5f7f8;
+}
+
+.title {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f2937;
+  background-color: #f5f7f8;
+  margin-right: 100px;
+  line-height: 51px;
+  align-items: center;
+}
+
+.brand-title {
+  display: flex;
+  font-size: 0.7rem;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: #1f2937;
+  background-color: #f5f7f8;
 }
 
 .card {
   width: 270px;
   margin: 10px;
+  margin-top: 50px;
   border-radius: 15px;
   border-bottom: #c9dbf8 1px solid;
   background: #ffffff;
@@ -81,12 +97,13 @@ html {
 }
 
 .card-image {
-  /* background-color: #1f2937; */
   height: 300px;
   margin-top: 15px;
   background-size: cover;
   border-radius: 15px 15px 0;
 }
+
+/********************************** Best Sellers *******************************/
 
 .car-1 {
   background-image: url(../images/products/iphone14-pro-max.png);
@@ -102,6 +119,48 @@ html {
 
 .car-4 {
   background-image: url(../images/products/googlepixel-7-pro.png);
+}
+
+/******************************************** Apple products **********************************/
+
+.car-5 {
+  background-image: url(../images/products/macbook-pro.png);
+}
+
+.car-6 {
+  background-image: url(../images/products/ipad-pro.png);
+}
+
+.car-7 {
+  background-image: url(../images/products/apple-watch.png);
+}
+
+/****************************************** Samsung products **********************************/
+
+.car-8 {
+  background-image: url(../images/products/galaxy-book.png);
+}
+
+.car-9 {
+  background-image: url(../images/products/galaxy-tab.png);
+}
+
+.car-10 {
+  background-image: url(../images/products/galaxy-watch.png);
+}
+
+/************************************* Google products ******************************************/
+
+.car-11 {
+  background-image: url(../images/products/chromebook-plus.png);
+}
+
+.car-12 {
+  background-image: url(../images/products/pixel-tablet.png);
+}
+
+.car-13 {
+  background-image: url(../images/products/pixel-watch.png);
 }
 
 .headers {
