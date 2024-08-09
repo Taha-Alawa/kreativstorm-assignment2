@@ -21,7 +21,7 @@ html {
 
 .hero-titles {
   display: flex;
-  height: 80vh;
+  height: 40vh;
   justify-content: center;
   align-items: center;
   background-color: #1f2937;
@@ -32,13 +32,18 @@ html {
 }
 
 .hero-titles h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bolder;
   color: aliceblue;
 }
 
+.hero-titles a {
+
+  color: #7f8286;
+}
+
 .hero-titles p {
-  font-size: 25px;
+  font-size: 1.125rem;
   padding-top: 40px;
   color: #ffffffe3;
 }
