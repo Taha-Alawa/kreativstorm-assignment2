@@ -323,7 +323,8 @@ footer div ul img {
   font-size: 18px;
 }
 
-/* about page */
+/* About page style */
+
 .about {
   display: flex;
   flex-direction: column;
@@ -351,6 +352,42 @@ footer div ul img {
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.about-hero {
+  flex-direction: column;
+  padding: 3% 0;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero div {
+  width: 80%;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* iPads size (It's good for mobile size also) */
