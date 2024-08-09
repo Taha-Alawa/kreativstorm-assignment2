@@ -323,7 +323,7 @@ footer div ul img {
   font-size: 18px;
 }
 
-/* About page style */
+/* About page styles */
 
 .about {
   display: flex;
@@ -381,7 +381,7 @@ footer div ul img {
 .about-image {
   flex: 1;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .about-image img {
