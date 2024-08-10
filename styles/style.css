@@ -20,11 +20,17 @@ header {
   align-items: center;
   padding: 0 2rem;
   background: #1f2937;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  width: 30%;
 }
 
 header ul {
   display: flex;
-  width: 30%;
   justify-content: space-around;
 }
 
