@@ -75,6 +75,13 @@ html {
   background-color: #f5f7f8;
 }
 
+.brand-title h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin-bottom: 30px;
+}
+
 .card {
   width: 270px;
   margin: 10px;
@@ -153,7 +160,7 @@ html {
 }
 
 .headers {
-  background-color: #4682a9;
+  background-color: #3882F6;
   border-radius: 15px 15px;
   padding-top: 10px;
   margin: 7px;
@@ -172,7 +179,7 @@ html {
 }
 
 .card a {
-  background-color: #4682a9;
+  background-color: #3882F6;
   color: white;
   padding: 17px 17px;
   display: block;
