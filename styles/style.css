@@ -277,8 +277,10 @@ footer div ul img {
   width: calc(100% - 20px);
 }
 
+/* FIXED */
 .form-family textarea {
-  height: 150px;
+  resize: none;
+  height: 120px;
 }
 
 .contact-form button {
