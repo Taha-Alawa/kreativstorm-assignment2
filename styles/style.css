@@ -543,20 +543,12 @@ footer>p {
     font-size: 2.2rem;
   }
 
-  .categories-content {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 40px;
+  .categories-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
-  .category {
-    width: 80%;
-    align-items: center;
-  }
-
-  .category img {
-    width: 70%;
+  .category-name {
+    font-size: 18px;
   }
 
   .opinions p {
