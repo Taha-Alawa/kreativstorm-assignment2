@@ -206,33 +206,42 @@ header ul li a:hover,
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
   background: #1F2937;
-  text-align: center;
   color: #f9faf8;
   font-size: 18px;
   padding: 20px 0;
 }
 
-footer div {
+footer>div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+}
+
+footer div img {
+  max-height: 40px;
 }
 
 footer div ul {
   display: flex;
-  width: 30%;
-  justify-content: space-around;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 footer div ul img {
   width: 35px;
+  height: 35px;
 }
 
-/* Contact page styles */
+footer>p {
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
 
 .contact-hero {
   flex-direction: column;
