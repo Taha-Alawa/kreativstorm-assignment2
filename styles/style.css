@@ -519,7 +519,15 @@ footer>p {
 
   .info-data {
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+  }
+
+  .info-item {
+    margin-bottom: 30px;
+  }
+
+  .info-item:last-child {
+    margin-bottom: 0;
   }
 
 }
