@@ -96,48 +96,93 @@ header ul li a:hover,
 /* Categories section */
 .categories {
   text-align: center;
-  margin: 50px 0 80px 0;
+  margin: 80px 0;
+  padding: 0 20px;
 }
 
-.categories h2 {
+.categories-title {
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
 }
 
-.categories-content {
-  display: flex;
-  width: 80%;
-  margin: 40px auto;
-  justify-content: space-between;
+.categories-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #3B82F6;
 }
 
-.category {
-  width: calc(24% - 6px);
-  border: #c9dbf8 3px solid;
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 3px solid #c9dbf8;
   background: #f9faf8;
   display: flex;
   flex-direction: column;
-  border-radius: 12px;
-  transition: all 0.2s;
-  cursor: pointer;
 }
 
-.category:hover {
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background: #e5e7eb;
 }
 
-.category img {
-  width: 100%;
-  margin-top: -30px;
+.category-image-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.category p {
-  margin-top: -60px;
-  margin-bottom: 15px;
-  font-weight: 900;
-  color: #1f2937;
+.category-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-image {
+  transform: scale(1.1);
+}
+
+.category-overlay {
+  background-color: #1F2937;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.category-card:hover .category-overlay {
+  background-color: #3B82F6;
+}
+
+.category-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
 }
 
 

@@ -40,26 +40,58 @@
       </div>
     </section>
 
-    <section class="categories">
-      <h2>See Our Categories</h2>
-      <div class="categories-content">
-        <a href="./pages/products.html" class="category">
-          <img src="./images/categories/phones-category.png" alt="phones category">
-          <p>Phones</p>
-        </a>
-        <a href="./pages/products.html" class="category">
-          <img src="./images/categories/laptops-category.png" alt="laptops category">
-          <p>Laptops</p>
-        </a>
-        <a href="./pages/products.html" class="category">
-          <img src="./images/categories/watches-category.png" alt="watches category">
-          <p>Watches</p>
-        </a>
-        <a href="./pages/products.html" class="category">
-          <img src="./images/categories/ipads-category.png" alt="ipads category">
-          <p>iPads</p>
-        </a>
-      </div>
+    <section class="categories" aria-labelledby="categories-title">
+      <h2 id="categories-title" class="categories-title">Explore Our Categories</h2>
+      <ul class="categories-grid">
+        <li>
+          <article class="category-card">
+            <a href="./pages/products.html?category=phones">
+              <div class="category-image-container">
+                <img src="./images/categories/phones-category.png" alt="" class="category-image">
+              </div>
+              <div class="category-overlay">
+                <h3 class="category-name">Phones</h3>
+              </div>
+            </a>
+          </article>
+        </li>
+        <li>
+          <article class="category-card">
+            <a href="./pages/products.html?category=laptops">
+              <div class="category-image-container">
+                <img src="./images/categories/laptops-category.png" alt="" class="category-image">
+              </div>
+              <div class="category-overlay">
+                <h3 class="category-name">Laptops</h3>
+              </div>
+            </a>
+          </article>
+        </li>
+        <li>
+          <article class="category-card">
+            <a href="./pages/products.html?category=watches">
+              <div class="category-image-container">
+                <img src="./images/categories/watches-category.png" alt="" class="category-image">
+              </div>
+              <div class="category-overlay">
+                <h3 class="category-name">Watches</h3>
+              </div>
+            </a>
+          </article>
+        </li>
+        <li>
+          <article class="category-card">
+            <a href="./pages/products.html?category=ipads">
+              <div class="category-image-container">
+                <img src="./images/categories/ipads-category.png" alt="" class="category-image">
+              </div>
+              <div class="category-overlay">
+                <h3 class="category-name">iPads</h3>
+              </div>
+            </a>
+          </article>
+        </li>
+      </ul>
     </section>
 
     <section class="opinions">
