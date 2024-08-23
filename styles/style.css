@@ -426,6 +426,45 @@ footer>p {
   border-radius: 10px;
 }
 
+/* Scroll to top  */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}
+
+.arrow-up {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid white;
+}
+
+/* Show bottom */
+@media (min-height: 650px) {
+  .scroll-to-top {
+    display: block;
+  }
+}
+
 /* iPads size (It's good for mobile size also) */
 @media (max-width: 850px) {
   header {
